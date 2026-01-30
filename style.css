@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;      
+    justify-content: center; 
+    align-items: center;   
+    min-height: 100vh;    
+    background-color: #fce4d6; 
+}
+
+header{
+    display: flex;
+    flex-direction:column;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+}
+
+.formacao{
+    display: flex;
+   
+}
+
+.principal{
+    background-color: aliceblue;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+
+}
+
+img{
+    width: 250px;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
